@@ -1,4 +1,4 @@
-const saldoInicial = 50; //prompt('Qual o saldo inicial?');
+const saldoInicial = prompt('Qual o saldo inicial?');
 
 const comprado = document.getElementById('comprado');
 const vendido = document.getElementById('vendido');
