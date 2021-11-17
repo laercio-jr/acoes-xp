@@ -1,4 +1,4 @@
-const saldoInicial = prompt('Qual o saldo inicial?');
+const saldoInicial = prompt('Para iniciar, digite qual o seu saldo inicial para comprar ações.');
 
 const comprado = document.getElementById('comprado');
 const vendido = document.getElementById('vendido');
