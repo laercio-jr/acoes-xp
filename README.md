@@ -5,7 +5,7 @@ Uma aplicação básica para usar antes de fazer uma operação de compra/venda 
 
 **Features:**
  - Display para o saldo
- - Histórico de movimentação
+ - Histórico de movimentação (lista das ordens)
  - Totalizador de valores comprados e vendidos
  - Informação sobre o ativo (somente funcionará para listados na B3,
    antiga BM&F Bovespa) após inclusão do ticker.
