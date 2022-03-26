@@ -22,3 +22,17 @@ Porém, me limitei a fazer algo simples, mas útil.
 ### Teste aqui: 
  https://laercio-jr.github.io/acoes-xp/
 
+ 
+ # Changelog
+ ### -- v1.0 --
+
+ **Features iniciais:**
+ - Display para o saldo
+ - Histórico de movimentação (lista das ordens)
+ - Totalizador de valores comprados e vendidos
+ - Informação sobre o ativo (somente funcionará para listados na B3,
+   antiga BM&F Bovespa) após inclusão do ticker.
+ - Âncora para abertura de conta em corretora indicada.
+ 
+Existem diversos pontos para melhoria até a próxima versão, como por exemplo o consumo de alguma API, e outras coisas.
+Porém, me limitei a fazer algo simples e útil de forma inicial.
