@@ -12,7 +12,13 @@ Uma aplicação básica para usar antes de fazer uma operação de compra/venda 
  https://laercio-jr.github.io/acoes-xp/
 
  
- # Changelog
+ # Changelog 
+ ### -- v2.1 --
+ 
+ **Removido:**
+  - Animação de carregamento: 
+     Está sendo analisada, pois acarretou em bugs;
+ 
  ### -- v2.0 --
 
  **Adicionado:**
