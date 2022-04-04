@@ -13,6 +13,12 @@ Uma aplicação básica para usar antes de fazer uma operação de compra/venda 
 
  
  # Changelog
+ ### -- v2.0 --
+
+ **Features adicionadas:**
+  - API da B3 sendo consumida diretamente do JS;
+ 
+ 
  ### -- v1.0 --
 
  **Features iniciais:**
@@ -25,3 +31,5 @@ Uma aplicação básica para usar antes de fazer uma operação de compra/venda 
  
 Existem diversos pontos para melhoria até a próxima versão, como por exemplo o consumo de alguma API, e outras coisas.
 Porém, me limitei a fazer algo simples e útil de forma inicial.
+
+ 
