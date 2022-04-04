@@ -15,9 +15,12 @@ Uma aplicação básica para usar antes de fazer uma operação de compra/venda 
  # Changelog
  ### -- v2.0 --
 
- **Features adicionadas:**
+ **Adicionado:**
   - API da B3 sendo consumida diretamente do JS;
+  - Animação de carregamento durante delay de consulta;
  
+ **Removido:**
+  - Input de valor manual (não é mais necessário, pois a API já traz o valor);
  
  ### -- v1.0 --
 
