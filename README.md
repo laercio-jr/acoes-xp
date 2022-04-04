@@ -15,35 +15,35 @@ Uma aplicação básica para usar antes de fazer uma operação de compra/venda 
  # Changelog 
  ### -- v2.2 --
  
- **Adicionado:**
-  - Alerta para erro de digitação no nome do ticker. 
- 
+   **Adicionado:**
+    - Alerta para erro de digitação no nome do ticker. 
+
  ### -- v2.1 --
- 
- **Removido:**
-  - Animação de carregamento: 
-     Está sendo analisada, pois acarretou em bugs.
- 
+
+   **Removido:**
+    - Animação de carregamento: 
+       Está sendo analisada, pois acarretou em bugs.
+
  ### -- v2.0 --
 
- **Adicionado:**
-  - API da B3 sendo consumida diretamente do JS;
-  - Animação de carregamento durante delay de consulta;
- 
- **Removido:**
-  - Input de valor manual (não é mais necessário, pois a API já traz o valor);
- 
+   **Adicionado:**
+    - API da B3 sendo consumida diretamente do JS;
+    - Animação de carregamento durante delay de consulta;
+
+   **Removido:**
+    - Input de valor manual (não é mais necessário, pois a API já traz o valor);
+
  ### -- v1.0 --
 
- **Features iniciais:**
- - Display para o saldo;
- - Histórico de movimentação (lista das ordens);
- - Totalizador de valores comprados e vendidos;
- - Redirecionamento para site externo com informações sobre o ativo (somente funcionará para listados na B3,
-   antiga BM&F Bovespa) após inclusão do ticker;
- - Âncora para abertura de conta em corretora indicada.
- 
-Existem diversos pontos para melhoria até a próxima versão, como por exemplo o consumo de alguma API, e outras coisas.
-Porém, me limitei a fazer algo simples e útil de forma inicial.
+   **Features iniciais:**
+   - Display para o saldo;
+   - Histórico de movimentação (lista das ordens);
+   - Totalizador de valores comprados e vendidos;
+   - Redirecionamento para site externo com informações sobre o ativo (somente funcionará para listados na B3,
+     antiga BM&F Bovespa) após inclusão do ticker;
+   - Âncora para abertura de conta em corretora indicada.
+
+  Existem diversos pontos para melhoria até a próxima versão, como por exemplo o consumo de alguma API, e outras coisas.
+  Porém, me limitei a fazer algo simples e útil de forma inicial.
 
  
