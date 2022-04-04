@@ -52,6 +52,10 @@ function InfoAcao(url){
         if (request.readyState == 4 && (request.status >= 200 && request.status < 400)) {
             // Ok
            resp = request.response;
+
+           if(resp.length == 0){
+               alert("Verifique o nome do ticker e tente novamente.");
+           }
            //console.log(resp[0]["vl_fechamento"])
            // document.getElementById(tickerAcao).innerText=resp;
         } else {
@@ -70,15 +74,15 @@ botaoCompra.addEventListener("click", function(){
     //localordens.innerHTML += "<div class='loader'><img width='50px' src='https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif' id='loader'/> </div>"
 
     InfoAcao(apiUrl+tickerAcao.value+"/1");
-    setTimeout(function(){ 
+    /*setTimeout(function(){ 
         document.getElementById('loader').style.display='none'; 
         
     },799);
-
+    */
     setTimeout(function(){
         let valXqtd = resp[0]["vl_fechamento"] * qtdAcoes.value;
         if (valXqtd> acumulado || tickerAcao.value == "" || qtdAcoes.value == "" ){
-            alert("Impossivel completar a operação, verifique todos os campos novamente, e lembre-se, seu saldo é de R$ " + acumulado);
+            alert("Impossivel completar a operação, verifique todos os campos novamente, e lembre-se, seu saldo é de R$ " + acumulado); 
         } else{
             acumulado -= valXqtd;
             saldo.innerHTML = acumulado;
