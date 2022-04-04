@@ -13,11 +13,16 @@ Uma aplicação básica para usar antes de fazer uma operação de compra/venda 
 
  
  # Changelog 
+ ### -- v2.2 --
+ 
+ **Adicionado:**
+  - Alerta para erro de digitação no nome do ticker. 
+ 
  ### -- v2.1 --
  
  **Removido:**
   - Animação de carregamento: 
-     Está sendo analisada, pois acarretou em bugs;
+     Está sendo analisada, pois acarretou em bugs.
  
  ### -- v2.0 --
 
