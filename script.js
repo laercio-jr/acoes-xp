@@ -67,14 +67,14 @@ function InfoAcao(url){
 
 //Botões
 botaoCompra.addEventListener("click", function(){  
-    localordens.innerHTML += "<div class='loader'><img width='50px' src='https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif' id='loader'/> </div>"
-
-    setTimeout(function(){ 
-        document.getElementById('loader').style.display='none'; 
-    },799);
+    //localordens.innerHTML += "<div class='loader'><img width='50px' src='https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif' id='loader'/> </div>"
 
     InfoAcao(apiUrl+tickerAcao.value+"/1");
-    
+    setTimeout(function(){ 
+        document.getElementById('loader').style.display='none'; 
+        
+    },799);
+
     setTimeout(function(){
         let valXqtd = resp[0]["vl_fechamento"] * qtdAcoes.value;
         if (valXqtd> acumulado || tickerAcao.value == "" || qtdAcoes.value == "" ){
@@ -87,8 +87,7 @@ botaoCompra.addEventListener("click", function(){
             apagarTxt.innerHTML = "";
             localordens.innerHTML += "<li class='vermelho'>"+ resp[0]["cd_acao"] + "<span>"+ qtdAcoes.value + " und. X R$ " + resp[0]["vl_fechamento"] + "</span><a class='info' target='_blank' href='https://www.moneytimes.com.br/cotacao?tvwidgetsymbol=BMFBOVESPA:"+tickerAcao.value+"'>+ Info</a></li>";  
         }            
-    },800);
-    
+    },800); 
 });
 
 
